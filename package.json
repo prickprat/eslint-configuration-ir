@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ir",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Javascript Coding Standards for IR.",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,9 @@
   "bugs": {
     "url": "https://github.com/prickprat/eslint-configuration-ir/issues"
   },
-  "keywords": ["eslint", "eslintconfig"],
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
   "homepage": "https://github.com/prickprat/eslint-configuration-ir#readme"
 }

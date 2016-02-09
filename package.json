@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-ir",
   "version": "1.0.0",
-  "description": "Javascript Coding Standards for Integrated Research Ltd.",
+  "description": "Javascript Coding Standards for IR.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,0 +1,20 @@
+{
+  "name": "eslint-config-ir",
+  "version": "1.0.0",
+  "description": "Javascript Coding Standards for Integrated Research Ltd.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prickprat/eslint-configuration-ir.git"
+  },
+  "author": "IR ricky.ratnayake@ir.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prickprat/eslint-configuration-ir/issues"
+  },
+  "keywords": ["eslint", "eslintconfig"],
+  "homepage": "https://github.com/prickprat/eslint-configuration-ir#readme"
+}

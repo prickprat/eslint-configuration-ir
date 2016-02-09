@@ -1,8 +1,14 @@
 module.exports = {
     "rules": {
+        //Space, Indentation and Formatting Style Guide
         "indent": [
             2,
             3
+        ],
+        "brace-style": [
+            2,
+            "1tbs",
+            { "allowSingleLine": true }
         ],
         "quotes": [
             2,
@@ -25,7 +31,7 @@ module.exports = {
             2,
             "always"
         ],
-        "no-console": 1,
+        "no-console": 0,
         "no-constant-condition": 2,
         "no-control-regex": 2,
         "no-debugger": 2,

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ir",
-  "version": "1.0.1",
+  "version": "2.0.1",
   "description": "Javascript Coding Standards for IR.",
   "main": "index.js",
   "scripts": {

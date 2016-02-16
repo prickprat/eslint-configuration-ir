@@ -25,42 +25,43 @@ module.exports = {
         ],
         "strict": [
             2,
-            "global"
+            "safe"
         ],
         "no-cond-assign": [
             2,
             "always"
         ],
-        "no-console": 0,
-        "no-constant-condition": 2,
-        "no-control-regex": 2,
-        "no-debugger": 2,
-        "no-dupe-keys": 2,
-        "no-duplicate-case": 2,
-        "no-empty-character-class": 2,
-        "no-empty": 2,
-        "no-ex-assign": 2,
-        "no-extra-boolean-cast": 1,
-        "no-extra-parens": 0,
-        "no-extra-semi": 2,
-        "no-func-assign": 2,
-        "no-inner-declarations": 2,
-        "no-invalid-regexp": 2,
-        "no-irregular-whitespace": 2,
-        "no-negated-in-lhs": 2,
-        "no-obj-calls": 2,
-        "no-regex-spaces": 2,
-        "no-sparse-arrays": 1,
-        "no-unexpected-multiline": 1,
-        "no-unreachable": 2,
-        "use-isnan": 2,
-        "valid-jsdoc": 1,
-        "valid-typeof": 2
-    },
-    "env": {
-        "es6": true,
-        "node": true,
-        "mocha": true
+        "no-console": 0,      //allow console.logs
+        "no-extra-parens": 0, //allow extra parenthesis
+        "array-callback-return": 2,
+        //"complexity" :, //specifiy a maximum cyclomatic complexity allowed TODO
+        "curly": 2, //force all block statements are wrapped in curly braces (if's, else etc)
+        "default-case": 2,
+        "dot-location": [2,"property"],
+        "dot-notation": 2,
+        "eqeqeq": 2,
+        "no-alert": 2,
+        "no-else-return": 2,
+        "no-eval": 2,
+        "no-implicit-coercion": 2, //disallow type converstion with shorter notations
+        "no-implied-eval": 2,
+        "no-invalid-this": 2,
+        "no-loop-func": 2, //disallow creation of functions within loops
+        "no-new-func": 2,
+        "no-new-wrappers":2, //disallow using 'new' with Wrappers (String, Boolean, Number)
+        "no-new":2, //dont use 'new' without an assignment/comparison
+        "no-param-reassign":2,
+        "no-redeclare": 2,
+        "no-return-assign": 2,
+        "no-self-assign": 2,
+        "no-self-compare": 2,
+        "no-script-url": 2,
+        "no-unmodified-loop-condition": 2,
+        "no-unused-expressions": 2,
+        "no-with": 2,
+        "radix": 2,
+        "no-shadow": 2,
+        "vars-on-top": 2,//still require this rule due to ECMA5 support
     },
     "extends": "eslint:recommended"
 }

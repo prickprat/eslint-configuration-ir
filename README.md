@@ -2,10 +2,10 @@
 JavaScript ESLint Coding Standard for IR
 
 If your JavaScript is for use in Node, put this comment at the top of your files:
-   <code>/*eslint-env es6, node */</code>
+   <pre><code>/*eslint-env es6, node */</code></pre>
 
 If your JavaScript is for use in the browser:
-   <code>/*eslint-env browser*/</code>
+   <pre><code>/*eslint-env browser */</code></pre>
 
 You may need to add to the aforementioned eslint comments depending on what frameworks/libaries/environments your code uses.
 See: http://eslint.org/docs/user-guide/configuring#specifying-environments for more information
@@ -20,4 +20,4 @@ If you are using Chai's expect language chains in your testing (http://chaijs.co
 ESLint has purposely not supported this, see https://github.com/eslint/eslint/issues/2102.
 
 Your choices are to either not using the language chains, or to add the following comment to the top of the relevant file.
-   <code>/*eslint-disable no-unused-expressions*/</code>
+   <pre><code>/*eslint-disable no-unused-expressions */</code></pre>
